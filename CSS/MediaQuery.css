@@ -1,0 +1,209 @@
+/*Small Screens*/
+@media screen and (max-width:576px){
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        padding-left: 1%;
+        padding-right: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2%;
+    }
+    .navbar h1{
+        font-size: 20px;
+        margin-left: 5%;
+    }
+    .navbar .nav-list{
+        padding: 0.5%;
+    }
+    .navbar #icon{
+        width: 4%;
+    }
+    .header .container{
+        padding: 10%;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .header .container picture{
+        width: 100%;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .header .container .home-content p{
+        padding-right: 5%;
+    }
+    .header .container .home-content .btn {
+        flex-wrap: wrap;
+    }
+    .header .container .home-content .btn .btn-book a{
+        width: 100%; 
+        margin-bottom: 10%;
+    }
+    .header .container .home-content .btn .btn-video a{
+        margin-top: 5%;
+    }
+    .chefs .main-title p{
+        font-size: 30px;
+    }
+    .chefs .chef-profile{
+        width: 100%;
+    }
+    .chefs .chef-profile h3::before{
+        bottom: 70%;
+    }
+    .gallery .main-title p{
+        font-size: 30px;
+    }
+    .gallery .gallery-images{
+        columns: 1;
+    }
+    .Contacts .main-title p{
+        font-size: 30px;
+    }
+    .Contacts .details .Our-Address{
+        width: 80%;
+    }
+    .Contacts .details .Email-US{
+        width: 80%;
+    }
+    .Contacts .details .Call-US{
+        margin-bottom: 3%;
+        width:80%;
+    }
+    .Contacts .details .Opening-Hours{
+        width: 80%;
+    }
+    .Contacts form button{
+        width: 40%;
+    }
+    .footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .footer .about{
+        width: 100%;
+    }
+    .footer .subscription{
+        width: 100%;
+    }
+}
+
+/*Meduim Screens*/
+@media screen and (min-width:577px) and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        padding-top: 3%;
+    }
+    .header .container{
+        padding: 10%;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .header .container picture{
+        width: 100%;
+    }
+    .header .container picture{
+        width: 100%;
+    }
+    .header .container .home-content .btn {
+        flex-wrap: wrap;
+    }
+    .header .container .home-content .btn .btn-book a{
+        width: 100%; 
+        margin-bottom: 10%;
+    }
+    .header .container .home-content .btn .btn-video a{
+        margin-top: 5%;
+    }
+    .chefs .main-title p{
+        font-size: 40px;
+    }
+    .chefs .chef-profile{
+        width: 80%;
+    }
+    .chefs .chef-profile h3::before{
+        bottom: 70%;
+    }
+    .gallery .main-title p{
+        font-size: 40px;
+    }
+    .gallery .gallery-images{
+        columns: 2;
+    }
+    .Contacts .main-title p{
+        font-size: 40px;
+    }
+    .Contacts form button{
+        width: 40%;
+    }
+    .footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .footer .about{
+        width: 100%;
+    }
+    .footer .subscription{
+        width: 100%;
+    }
+}
+
+/*Large Screens*/
+@media screen and (min-width:796px) and (max-width:992px){
+    .navbar{
+        padding-top: 5%;
+    }
+    .header .container{
+        padding-top: 5%;
+    }
+    .header .container picture{
+        margin-top: 10%;
+    }
+    .chefs .main-title p{
+        font-size: 50px;
+    }
+    .chefs .chef-profile{
+        width: 85%;
+    }
+    .gallery .main-title p{
+        font-size: 50px;
+    }
+    .gallery .gallery-images{
+        columns: 2;
+    }
+    .Contacts .main-title p{
+        font-size: 50px;
+    }
+    .Contacts form button{
+        width: 30%;
+    }
+    .footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .footer .about{
+        margin: auto;
+        width: 80%;
+        text-align: center;
+    }
+    .footer .subscription{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+/*X-large Screens*/
+@media screen and (min-width:993px) and (max-width:1200px){
+    .Contacts form button{
+        width: 20%;
+    }
+    .footer{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
